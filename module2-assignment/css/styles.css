@@ -1,0 +1,57 @@
+div{
+  background-color: #A0A0A0;
+  height: 150px;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+section{
+	border: 2px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	padding: 5px;
+	width: 100px;
+	text-align: center;	
+}
+
+div > section{
+	float: right;
+}
+
+ #chk {
+    background-color: #C48383;
+}
+
+ #bf {
+    background-color: #BD3D3D;
+}
+
+ #sh {
+    background-color: #C7C357;
+}
+
+div > p {
+	clear: right;
+	margin: 10px;
+}
+
+@media (min-width: 992px) {
+ .col-lg-3{
+    width: 32%;
+    float: left;
+    margin: 5px;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%;
+    float: left;
+    margin: 5px;
+  }
+  .col-md-12{
+    width: 98%;
+    float: left;
+    margin: 5px;
+  }
+}
